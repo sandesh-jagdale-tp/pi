@@ -10,6 +10,7 @@
 ### Added
 
 - Added first-class OAuth device-code callback metadata, shared polling support, and GitHub Copilot OAuth integration.
+- Added OpenAI Codex subscription device-code login as a selectable headless alternative while keeping browser login as the default.
 
 ### Fixed
 

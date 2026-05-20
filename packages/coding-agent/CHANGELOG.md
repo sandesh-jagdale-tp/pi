@@ -7,6 +7,10 @@
 - Changed source syntax to avoid TypeScript constructs that require JavaScript emit, keeping core sources compatible with Node.js strip-only TypeScript checks.
 - Removed web UI workspace references from the CLI package and dropped the package-level development watch script.
 
+### Added
+
+- Added a Codex subscription login method selector with device-code auth for headless environments.
+
 ### Fixed
 
 - Fixed the system prompt to tell models to resolve pi docs and examples under the absolute package paths before reading topic-specific relative references ([#4752](https://github.com/earendil-works/pi/issues/4752)).

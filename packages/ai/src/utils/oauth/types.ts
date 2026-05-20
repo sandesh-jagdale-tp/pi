@@ -28,6 +28,8 @@ export type OAuthDeviceCodeInfo = {
 	verificationUri: string;
 	intervalSeconds?: number;
 	expiresInSeconds?: number;
+	/** Whether the UI should automatically open the verification URI. Defaults to true. */
+	openBrowser?: boolean;
 };
 
 export type OAuthSelectOption = {
