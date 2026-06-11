@@ -1,0 +1,19 @@
+packages/ai/scripts/generate-models.ts
+  s_b5937aafed58fa::t_592888ffa75a2f 1962-1973
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "c76d3ba98604c3cf1b95e6c5d7cc26827d572287",
+  "prompts": {},
+  "sessions": {
+    "s_b5937aafed58fa": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019eb6e7-40b4-70e2-b348-4c21f72da6e4",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Sandesh Jagdale <sandesh.jagdale@thinkproject.com>"
+    }
+  }
+}
